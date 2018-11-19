@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  text-align: center;
+  margin-top: 15%;
+  font-family: georgia;
+  background-image: url("https://images.pexels.com/photos/707915/pexels-photo-707915.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+}
+
+button{
+  font-family: georgia;
+  font-size: 16px;
+  background-color: plum;
+  border: 2px solid plum;
+  border-radius: 5%;
+}
+button:hover {
+    background-color: plum;
+    color: black;
+    opacity:.5;
+}
+input{
+  font-size: 18px;
+  border: 2px solid lightgrey;
+}
+ul{
+  list-style: none;
+}
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+
+.checked{
+  text-decoration: line-through;
+}
