@@ -1,7 +1,11 @@
 * {
   box-sizing: border-box;
-}
+  font-family: 'Bree Serif', serif;
 
+}
+h1, h2{
+  color: red;
+}
 body {
   margin:0;
   text-align: center;
@@ -19,7 +23,7 @@ button{
 }
 button:hover {
     background-color: plum;
-    color: black;
+    color: #7FFF00;
     opacity:.5;
 }
 input{
@@ -29,7 +33,9 @@ input{
 ul{
   list-style: none;
 }
-
+li{
+  color: #7FFF00;
+}
 .clearfix:after {
      content: ".";
      display: block;
